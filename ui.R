@@ -110,11 +110,11 @@ dashboardPage(
            ),
       div(
           actionButton("combine", "Combine",
-                       #style = "position: left; width: 30%; padding-right: 1%; padding-top: 1%;"
+                       style = "position: left; width: 30%; padding-right: 1%; padding-top: 1%;"
                        ),
 
           actionButton("revert_input", "Reset Buttons",
-                       #style = "position:  right; width: 30%; padding-right: 1%; padding-top: 1%;"
+                       style = "position:  right; width: 30%; padding-right: 1%; padding-top: 1%;"
       )
      )      # useShinyalert(force = TRUE)
     )
